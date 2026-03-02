@@ -39,8 +39,8 @@ class MainActivity : ComponentActivity() {
             Atividade_invadersTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) {
                     innerPadding ->
-                      LayoutGameOver(modifier = Modifier.padding(innerPadding))
-//                    Layout1(modifier = Modifier.padding(innerPadding))
+                    //LayoutGameOver(modifier = Modifier.padding(innerPadding))
+                    Layout1(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
@@ -154,7 +154,7 @@ fun Layout1(modifier: Modifier = Modifier){
             }
             Row(modifier = modifier
                 .fillMaxWidth()
-                .background(Color.DarkGray)
+                .background(Color(0x92343333))
                 .height(40.dp),
                 horizontalArrangement = Arrangement.Center,
                 verticalAlignment = Alignment.CenterVertically) {
